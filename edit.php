@@ -2,7 +2,7 @@
     // kode anda
     include "koneksi.php";
     if ($_GET){
-        $sql = "SELECT * FROM stockBarang WHERE idBarang = {$_GET['id']}";
+        $sql = "SELECT * FROM stockbarang WHERE idBarang = {$_GET['id']}";
         $result=mysqli_query($conn,$sql);
 
         if (mysqli_num_rows($result)>0){

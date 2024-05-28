@@ -54,7 +54,7 @@
     </div>
     <!-- Bikin tabel -->
     <?php
-        $sql= "SELECT * FROM stockBarang";
+        $sql= "SELECT * FROM stockbarang";
         $result = mysqli_query($conn,$sql);
 
         if (mysqli_num_rows($result)>0){

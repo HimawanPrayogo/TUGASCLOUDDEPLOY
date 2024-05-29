@@ -4,7 +4,7 @@
 
     $sql = "DELETE FROM stockbarang WHERE idBarang='".$_GET['id']."'";
     
-    $result = mysqli_query($conn, $sqql);
+    $result = mysqli_query($conn, $sql);
     
     if($result){
         echo "Berhasil DELETE DATA";

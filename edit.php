@@ -100,7 +100,7 @@
             $harga = $_POST['hargaBarang'];
             $promo = $_POST['promo'];
 
-            $sql = "UPDATE stockBarang set 
+            $sql = "UPDATE stockbarang set 
             namaBarang='".$barang."',
             stok='".$stok."',
             harga='".$harga."',
